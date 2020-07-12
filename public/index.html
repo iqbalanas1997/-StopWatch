@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            background-color: cornflowerblue;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            display: inline-block;
+            width: 100px;
+            background-color: darkblue;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="text-align: center;">
+        <h4>SAYLANI MASS IT TRAINING</h4>
+        <h5>Web And Mobile Hybrid App Development</h5>
+        <h6>Assignment # 07 : Stopwatch </h6>
+        <p>Iqbal Anas<br>03232202360</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3"></div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="border">
+                    <div>
+                        <h5>Stop Watch</h1>
+                    </div>
+                    <div>
+                        <h1 id="min">0</h1>
+                        <h1 id="sec">0</h1>
+                        <h1 id="msec">0</h1>
+                    </div>
+                    <div>
+                        <button class="btn btn-dark" onclick="start()">Start</button>
+                        <button class="btn btn-dark" onclick="stop()">Pause</button>
+                        <button class="btn btn-dark" onclick="reset()">Reset</button>
+                    </div>
+
+            </div>
+
+            <div class="col-sm-3 col-md-3 col-lg-3 "></div>
+
+
+        </div>
+    </div>
+
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
